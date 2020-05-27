@@ -166,6 +166,6 @@ One can seamlessly create a folder under `internal/microservice` and name it wha
 >
 > \$mkdir internal/microservice/test</kbd>
 
-then, use **`go generate`** to prepare the genrate the code corresponding the newly built microservice.
+then, use **`go generate cmd/main.go`** to prepare the genrate the code corresponding the newly built microservice.
 
 Fin!
