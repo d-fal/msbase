@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Group_3941" width="32" height="32" data-name="Group 3941" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:#fff700}.cls-2{fill:#e64242}
+        </style>
+    </defs>
+    <ellipse id="Ellipse_1107" cx="15.644" cy="15.644" class="cls-1" data-name="Ellipse 1107" rx="15.644" ry="15.644" transform="translate(.356 .356)"/>
+    <path id="Path_7975" d="M51.047 147.979h14.878l.794-.765 1.536 3.323 2.648-5.064 2.171 5.064 3.971-11.393 2.91 16.43-1.8 2.634-1.745-9.408-1.946 6.5-1.281-.007-2.333-5.966-2.224 4.431-2.476-4.431H50.563z" class="cls-2" data-name="Path 7975" transform="translate(-50.4 -131.562)"/>
+    <g id="Group_3940" data-name="Group 3940">
+        <path id="Path_7976" d="M64.5 76.167a16 16 0 1 1 16-16 16.018 16.018 0 0 1-16 16zm0-31.285a15.285 15.285 0 1 0 15.285 15.285A15.3 15.3 0 0 0 64.5 44.882z" data-name="Path 7976" transform="translate(-48.5 -44.167)"/>
+    </g>
+    <path id="Path_7977" d="M70.748 226.567l-5.591-9.178-4.009 3.9-.633-.791 2.954-4.853-4.536-5.433h-1.266L60.146 208l.949.791 7.543.053.58-.844 2 1.662-4.536 6.092 5.7 10.813zm-5.723-12.5l3.086-3.745h-6.435l3.112 3.745z" data-name="Path 7977" transform="translate(-56.942 -194.924)"/>
+</svg>

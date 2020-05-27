@@ -1,0 +1,14 @@
+App: # Do not change this
+  Name: Reporting Backend # sample name
+  ID: Reporting 
+  Version: 1.000
+  Middleware:
+    ID: middleware02
+    URL: /api/reporting
+  Routes:
+    -
+      URL: /facade
+      ReceiverID: internal_id_for_receptor
+      Description: Description that you need
+      Method: GET
+ 

@@ -1,0 +1,118 @@
+lexicon:
+    -
+        char: 0
+        unicode: \u06F0
+    -
+        char: 1
+        unicode: \u06F1
+    -
+        char: 2
+        unicode: \u06F2
+    -
+        char: 3
+        unicode: \u06F3
+    -
+        char: 4
+        unicode: \u06F4
+    -
+        char: 5
+        unicode: \u06F5
+    -
+        char: 6
+        unicode: \u06F6
+    -
+        char: 7
+        unicode: \u06F7
+    -
+        char: 8
+        unicode: \u06F8
+    -
+        char: 9
+        unicode: \u06F9
+    # Another format
+    -
+        char: 0
+        unicode: \u0660
+    -
+        char: 1
+        unicode: \u0661
+    -
+        char: 2
+        unicode: \u0662
+    -
+        char: 3
+        unicode: \u0663
+    -
+        char: 4
+        unicode: \u0664
+    -
+        char: 5
+        unicode: \u0665
+    -
+        char: 6
+        unicode: \u0666
+    -
+        char: 7
+        unicode: \u0667
+    -
+        char: 8
+        unicode: \u0668
+    -
+        char: 9
+        unicode: \u0669
+    #Hebrew
+    -
+        char: 1
+        unicode: \u05D0
+    -
+        char: 2
+        unicode: \u05D1
+    -
+        char: 3
+        unicode: \u05D2
+    -
+        char: 4
+        unicode: \u05D3
+    -
+        char: 5
+        unicode: \u05D4
+    -
+        char: 6
+        unicode: \u05D5
+    -
+        char: 7
+        unicode: \u05D6
+    -
+        char: 8
+        unicode: \u05D7
+    -
+        char: 9
+        unicode: \u05D8
+    # Fancier
+    -
+        char: 1
+        unicode: \u9312
+    -
+        char: 2
+        unicode: \u9313
+    -
+        char: 3
+        unicode: \u9314
+    -
+        char: 4
+        unicode: \u9315
+    -
+        char: 5
+        unicode: \u9316
+    -
+        char: 6
+        unicode: \u9317
+    -
+        char: 7
+        unicode: \u9318
+    -
+        char: 8
+        unicode: \u9319
+    -
+        char: 9
+        unicode: \u9320

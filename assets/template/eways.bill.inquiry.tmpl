@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:temp="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <temp:InquiryBill>
+         <temp:request>
+            <temp:BillType>{{.BillType}}</temp:BillType>
+         
+            <temp:BillParameter>{{.BillParameter}}</temp:BillParameter>
+         
+            <temp:SitePassword>{{.SitePassword}}</temp:SitePassword>
+         </temp:request>
+      </temp:InquiryBill>
+   </soapenv:Body>
+</soapenv:Envelope>

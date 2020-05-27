@@ -1,0 +1,128 @@
+Errors:
+    NoError:
+        code: 0
+        message: No errors detected
+        messageFarsi: خطایی یافت نشد
+        status: success
+    ServerError:
+        code: -100
+        message: The server responds with error
+        messageFarsi: خطای سرور
+        status: failed
+    InputError:
+        code: -101
+        message: Input error
+        messageFarsi: خطای ورودی
+        status: failed
+    InputErrorInsufficientData:
+        code: -1011
+        message: Insufficient input fields
+        status: failed
+    NonStandardMobileNumber:
+        code: -1041
+        message: The provided mobile number is not valid
+        messageFarsi: شماره موبایل مورد نظر نامعتبر است
+        status: error
+    ExcessiveLengthMobileNumber:
+        code: -1042
+        message: The provided mobile number length is more than expected
+        messageFarsi: تعداد ارقام شماره موبایل مورد نظر بیش از مقدار استاندارد است
+        status: error
+    NoRouteToDestination:
+        code: -102
+        message: We cannot reach third party service
+        messageFarsi: دسترسی به سرویس مورد نظر امکان‌پذیر نمی‌باشد
+    FailedToParseServerResponse:
+        code: -103
+        message: Cannot parse server response
+        messageFarsi: خطا در پردازش اطلاعات دریافت شده
+        action: 
+    # ErrorPatternNotFound raises this error when the expected error is not found
+    ErrorPatternNotFound : 
+        code: -1010
+        message: Requested Pattern Not Found
+    # ErrorStatusCodeNotFound raises when the status code is not found
+    ErrorStatusCodeNotFound : 
+        code: -1011
+        message: Status Code Not Found
+    # ErrorURLNotFound Cannot find url
+    ErrorURLNotFound :
+        code: -1012
+        message: URL is not retrievable
+    # ErrorCannotReachOutEventHost cannot dial logger server
+    ErrorCannotReachOutEventHost: 
+        code: -1013
+        message: Cannot reach out to event logger server
+    # ErrorCannotMakeReportRequest cannot prepare http request
+    ErrorCannotMakeReportRequest:
+        code: -1014
+        message: Cannot create report request
+    ErrorDatabaseCredentials:
+        code: -1015
+        message: Cannot connect to database. Please make sure the password is correct
+    ErrorBillServiceIsNotSupported:
+        code: -1016
+        message: The selected bill type is not supported by the selected provider
+    ErrorBillServicesNotLoaded:
+        code: -1017
+        message: No bill inquiry methods available
+    ErrorCreatingHTTPRequest:
+        code: -1018
+        message: Cannot create http request
+    ErrorCannotFetchHTTPData:
+        code: -1019
+        message: Cannot fetch data from remote service
+    ErrorCannotEmulateData:
+        code: -1020
+        message: Cannot emulate request
+        messageFarsi: قادر به ساخت درخواست نمی‌باشد
+    FlowNotFound:
+        code: -1021
+        message: Request flow not found
+    ErrorTokenExpired:
+        code: -1022
+        message: Token expired
+    ErrorConfigPayloadIsMalformed:
+        code: -1023
+        message: Payload in config is malformed
+    ErrorConnectionTimeout:
+        code: -1024
+        message: connection timeout, we are not able to get all of our part of the data from third party server at this time. Please try later
+    ErrorCannotLoadImage:
+        code: -1025
+        message: Cannot load icon
+    ErrorCannotQueryCacheServer:
+        code: -1026
+        message: Cannot query cache server
+    ErrorFilePathIsEmpty:
+        code: -1027
+        message: Provided path is empty
+    WarningKeyDoesNotExistInCache:
+        code: -1028
+        message: Cannot find the requested key in cache server
+    ErrorCannotUnmarshallCacheServer:
+        code: -1029
+        message: Cannot find unmarshall cached data
+    ErrorCannotRetrieveThirdPartyInformation:
+        code: -1030
+        message: Cannot fetch third party information. Empty response given.
+        messageFarsi: پاسخ خالی از سرویس دهنده دریافت شد
+    ErrorCustom:
+        code: -2000
+
+    ErrorTokenGenerationFailed:
+        code: -1031
+        message: Cannot generate Token
+        messageFarsi: امکان تولید توکن امنیتی وجود ندارد
+    ErrorAuthorizationFailed:
+        HTTPCode: 403
+        message: Unauthorized user tries to access protected area
+        messageFarsi: شما مجاز به دسترسی به این قسمت نیستید
+    UnknownError:
+        code: -1
+        message: Unknown error
+        messageFarsi: خطای ناشناخته
+    ErrorNoTokensPresentedInHeader:
+        HTTPCode: 403
+        message: No tokens provided in the header
+        messageFarsi: هیچ توکن امنیتی فراهم نشده است

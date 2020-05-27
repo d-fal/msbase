@@ -1,0 +1,77 @@
+##########################################################################
+#                                                                        #
+#                          APP Identity Part                             #
+#               For Further information, please check README             #
+#                                                                        #
+##########################################################################
+App: # Do not change this
+  Name: Billing service # sample name
+  ID: Billing # No whitespaces are allowed
+  Version: 1.000
+  BaseURL: /api/{{.version}}/billing/
+  Routes:
+    - URL: debtinquiry
+      HandlerID: internal_rec_billing_getbillinfo
+      Description: Bill info
+      Method: POST
+      Middleware:
+        - ID: cors
+        - ID: logger
+    - URL: facade
+      HandlerID: internal_rec_billing_getservicesfacade
+      Description: prepares facade
+      Method: GET
+      Middleware:
+        - ID: cors
+
+##########################################################################
+#                                                                        #
+#                         Server Config Part                             #
+#       Please set the server parameters based on your own settings      #
+#                                                                        #
+##########################################################################
+
+ServerConfig:
+  HTTPPort: 8064
+  HTTPSPort: 8065
+  BasePath: /usr/local/sbin/billing
+  AssetsFolder: assets
+  IconsFolder: icons
+  Static:
+    Path: /usr/local/sbin/billing/assets/icons
+    URL: static
+  BaseURL: https://yourdomain.com
+  RequestTimeout: 32
+  LogFile: /home/davood/dev/logs
+  JWT:
+    Secret: josx!@#09809lkjsljlj
+    ValidTokenDuration: 300 # x hours
+    AcceptTokensIssuedAfter: 2020-01-01 # analogous to nbf
+
+##########################################################################
+#                                                                        #
+#                             Cache Server                               #
+#                                                                        #
+##########################################################################
+Cache:
+  Name: REDIS
+  MaxIdle: 80
+  MaxActive: 12000
+  Proto: tcp
+  Address: 127.0.0.1:6379
+
+##########################################################################
+#                                                                        #
+#                         Database section                               #
+#                                                                        #
+##########################################################################
+Database:
+  Username: user
+  Password: password
+  SID: host:port/username
+  MinSessions: 1
+  MaxSessions: 10
+  PoolIncrement: 1
+  ConnClass: POOLED
+  ConnectionMaximumLifeTime: 50 #Maximum lifetime of the connection
+  DBConnectMaximumAttempts: 3 #Maximum attempts to reach out databasse
