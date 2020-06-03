@@ -2,6 +2,7 @@
 package microservice
 
 import (
+	"msbase/internal/microservice/test"
 
 )
 
@@ -16,5 +17,6 @@ import (
  */
 func LoadActiveMicroservices() {
 
+	test.ActivateMicroservice()
 
 }

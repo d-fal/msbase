@@ -3,7 +3,7 @@ module msbase
 go 1.13
 
 require (
-	github.com/Nerzal/gocloak/v5 v5.0.1
+	github.com/Nerzal/gocloak/v5 v5.0.1 // indirect
 	github.com/buger/jsonparser v0.0.0-20200322175846-f7e751efca13 // indirect
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/gin-contrib/cors v1.3.1
@@ -17,12 +17,12 @@ require (
 	github.com/onsi/ginkgo v1.12.0 // indirect
 	github.com/onsi/gomega v1.9.0 // indirect
 	github.com/paulmach/orb v0.1.5
-	github.com/sirupsen/logrus v1.4.2
+	github.com/sirupsen/logrus v1.4.2 // indirect
 	github.com/stretchr/testify v1.5.1
 	github.com/yaa110/go-persian-calendar v0.5.0
 	go.uber.org/zap v1.14.1
 	gopkg.in/gographics/imagick.v2 v2.6.0
-	gopkg.in/goracle.v2 v2.24.1
+	gopkg.in/goracle.v2 v2.24.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/yaml.v2 v2.2.8
 	mellium.im/sasl v0.2.1 // indirect

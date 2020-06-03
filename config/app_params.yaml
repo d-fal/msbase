@@ -11,18 +11,12 @@ App: # Do not change this
   BaseURL: /api/{{.version}}/billing/
   Routes:
     - URL: debtinquiry
-      HandlerID: internal_rec_billing_getbillinfo
+      HandlerID: internal_rec_test_gintesthandler
       Description: Bill info
       Method: POST
       Middleware:
         - ID: cors
         - ID: logger
-    - URL: facade
-      HandlerID: internal_rec_billing_getservicesfacade
-      Description: prepares facade
-      Method: GET
-      Middleware:
-        - ID: cors
 
 ##########################################################################
 #                                                                        #

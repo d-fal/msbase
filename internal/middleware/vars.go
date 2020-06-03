@@ -1,8 +1,6 @@
 package middleware
 
 import (
-	"msbase/internal/microservice/auth/cconf"
-
 	"go.uber.org/zap"
 )
 
@@ -16,6 +14,6 @@ type MiddlewaresSet struct {
 
 var (
 	middlewaresSet MiddlewaresSet
-	authServer     cconf.AuthServer
-	zaplogger      *zap.Logger
+	// authServer     cconf.AuthServer
+	zaplogger *zap.Logger
 )
